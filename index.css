@@ -1,12 +1,12 @@
 body {
     height: 100%;
-    color: rgba(0,0,0,.8);
     text-align: center;
     letter-spacing: .2em;
     background: radial-gradient( #068864, #1A1447); /* Standard syntax */
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-shadow: 0px 1px 2px black;
+    color: #f7f7f7;
     /* background-size: 200% 200%;
     animation: gradientBG 15s ease infinite; */
 }
@@ -27,8 +27,7 @@ i {
     font-size: 32px;
     width: 100px;
     height: 40px;
-    color:#FFFFFF;
-    
+
 }
 
 input[type="color"] {
@@ -85,14 +84,12 @@ input[type="color"] {
 
 .instructions {
     font-family: 'PT Sans', sans-serif;
-    color: white;
     text-align: left;
     font-size: 1.7em;
 }
 
 h2, h3, .hex1, .hex2 {
     font-family: 'PT Sans', sans-serif;
-    color: white;
     text-align: center;
     font-size: 1.7em;
 }
